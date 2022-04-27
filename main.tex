@@ -1,23 +1,23 @@
 \documentclass[12pt, russian, a4paper]{article}
 
-\input{pre}
+\input{inc/pre}
 
 \begin{document}
-    \input{titlepage}
+    \input{inc/titlepage}
     \setcounter{page}{2}
 
     \tableofcontents
 
-    \input{0-introduction}
+    \input{inc/0-introduction}
 
     \Section{СТОЛБЦОВАЯ МОДЕЛЬ ГЛОБАЛЬНОЙ ЭЛЕКТРИЧЕСКОЙ ЦЕПИ}
     \Section{ВЛИЯНИЕ КОЛЕБАНИЯ МАДДЕНА--ДЖУЛИАНА НА ГЛОБАЛЬНУЮ ЭЛЕКТРИЧЕСКУЮ ЦЕПЬ}
-    \input{-mjo}
+    \input{inc/2-1-mjo-index}
 
 
     \newpage
     \addcontentsline{toc}{section}{СПИСОК ЛИТЕРАТУРЫ}
     \bibliographystyle{unsrt}
-    \bibliography{references}
+    \bibliography{inc/references}
 
 \end{document}
