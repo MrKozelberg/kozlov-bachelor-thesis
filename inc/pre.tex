@@ -25,33 +25,11 @@
 \usepackage{caption}
 \usepackage{subcaption}
 
-\newcommand{\Section}[1]{\clearpage % put new chapters on a new page
-\refstepcounter{section} % manually increment the chapter number
-% manually add the chapter to the table of contents
-\addcontentsline{toc}{section}{\protect\numberline{\thesection}#1}
-% and now format the header according to spec.
-\begin{center}
-\textbf{\protect{\thesection}\ \ #1}
-\end{center}
-}
+\usepackage{sectsty}
 
-\newcommand{\Anonsection}[1]{\clearpage % put new chapters on a new page
-\addcontentsline{toc}{section}{#1}
-% and now format the header according to spec.
-\begin{center}
-\textbf{\protect{#1}}
-\end{center}
-}
-
-\newcommand{\Subsection}[1]{% put new chapters on a new page
-\refstepcounter{subsection} % manually increment the chapter number
-% manually add the chapter to the table of contents
-\addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection}#1}
-% and now format the header according to spec.
-\begin{center}
-\textbf{\protect{\thesubsection}\ \ #1}
-\end{center}
-}
+\sectionfont{\centering\fontsize{12}{12}\selectfont}
+\subsectionfont{\centering\fontsize{12}{12}\selectfont}
+\subsubsectionfont{\centering\fontsize{12}{12}\selectfont}
 
 \usepackage{setspace}
 \onehalfspacing % Полуторный межстрочный интервал
