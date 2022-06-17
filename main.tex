@@ -11,11 +11,16 @@
     \newpage
     \input{inc/0-introduction}
 
-    \section{СТОЛБЦОВАЯ МОДЕЛЬ ГЛОБАЛЬНОЙ ЭЛЕКТРИЧЕСКОЙ ЦЕПИ}
+    \newpage
+    \section{СТОЛБЧАТАЯ МОДЕЛЬ ГЛОБАЛЬНОЙ ЭЛЕКТРИЧЕСКОЙ ЦЕПИ}
+    \input{inc/1-1-theory}
+    \input{inc/1-2-pract}
+    \input{inc/1-3-results}
     % вывод уравнений на потенциал
     % реализация столбцовой модели ГЭЦ ? (тут про проводимости тинсли)
     % описание модели ГЭЦ с более простой проводимостью ??
     % сравнение двух моделей и оценка нужности учёта более тонкой параметризации проводимости
+    \newpage
     \section{ВЛИЯНИЕ КОЛЕБАНИЯ МАДДЕНА--ДЖУЛИАНА НА ГЛОБАЛЬНУЮ ЭЛЕКТРИЧЕСКУЮ ЦЕПЬ}
     \input{inc/2-1-mjo-index}
     \input{inc/2-2-gec-simulation}
@@ -23,6 +28,7 @@
     \input{inc/2-4-mjo-model-gec}
     \input{inc/2-5-mjo-pg}
     \input{inc/2-6-further-analysis}
+    \input{inc/2-7-futher-discussion}
     
     % ?? описание используемой модели ГЭЦ %
     % описание измерений ГП на станции Восток %
@@ -30,12 +36,211 @@
     % Большой и подробный раздел про объяснение вариации ИП по фазам КМД
     % Эффекты КМД в измерениях ГП
     % обсуждение причин несостыковок
-
+    
+    \newpage
+    \input{inc/3-conclusion}
     % ЗАКЛЮЧЕНИЕ
 
     \newpage
     \addcontentsline{toc}{section}{СПИСОК ЛИТЕРАТУРЫ}
     \bibliographystyle{unsrt}
-    \bibliography{inc/references}
+    %\bibliography{inc/references}
+    \begin{thebibliography}{10}
+
+\bibitem{Williams_Mareev_2014}
+E.~Williams and E.~Mareev.
+\newblock Recent progress on the global electrical circuit.
+\newblock {\em Atmos.\ Res.}, 135--136:208--227, 2014.
+
+\bibitem{Rycroft_et_al_2008}
+M.~J. Rycroft, R.~G. Harrison, K.~A. Nicoll, and E.~A. Mareev.
+\newblock An overview of {E}arth’s global electric circuit and atmospheric
+  conductivity.
+\newblock {\em Space Sci.\ Rev.}, 137(1--4):83--105, 2008.
+
+\bibitem{Williams_2009}
+E.~R. Williams.
+\newblock The global electrical circuit: A review.
+\newblock {\em Atmos.\ Res.}, 91(2--4):140--152, 2009.
+
+\bibitem{Markson_2007}
+R.~Markson.
+\newblock The global circuit intensity: Its measurement and variation over the
+  last 50 years.
+\newblock {\em Bull.\ Amer.\ Meteor.\ Soc.}, 88(2):223--241, 2007.
+
+\bibitem{Ilin_et_al_2020}
+N.~V. Ilin, N.~N. Slyunyaev, and E.~A. Mareev.
+\newblock Toward a realistic representation of global electric circuit
+  generators in models of atmospheric dynamics.
+\newblock {\em J.\ Geophys.\ Res.\ Atmos.}, 125(6):e2019JD032130, 2020.
+
+\bibitem{Slyunyaev_et_al_2015}
+N.~N. Slyunyaev, E.~A. Mareev, and A.~A. Zhidkov.
+\newblock On the variation of the ionospheric potential due to large-scale
+  radioactivity enhancement and solar activity.
+\newblock {\em Journal of Geophysical Research: Space Physics},
+  120(8):7060--7082, 2015.
+
+\bibitem{Madden_Julian_1994}
+R.~A. Madden and P.~R. Julian.
+\newblock Observations of the 40–50-day tropical oscillation—{A} review.
+\newblock {\em Mon.\ Wea.\ Rev.}, 122(5):814--837, 1994.
+
+\bibitem{Zhang_2005}
+C.~Zhang.
+\newblock {M}adden-{J}ulian {O}scillation.
+\newblock {\em Rev.\ Geophys.}, 43(2):RG2003, 2005.
+
+\bibitem{Zhang_et_al_2020}
+C.~Zhang, {\'A}.~F. Adames, B.~Khouider, B.~Wang, and D.~Yang.
+\newblock Four theories of the {M}adden-{J}ulian {O}scillation.
+\newblock {\em Rev.\ Geophys.}, 58(3):e2019RG000685, 2020.
+
+\bibitem{Anyamba_et_al_2000}
+E.~Anyamba, E.~Williams, J.~Susskind, A.~Fraser-Smith, and M.~Fullekrug.
+\newblock The manifestation of the {M}adden–{J}ulian oscillation in global
+  deep convection and in the {S}chumann resonance intensity.
+\newblock {\em J.\ Atmos.\ Sci.}, 57(8):1029--1044, 2000.
+
+\bibitem{Beggan_Musur_2019}
+C.~D. Beggan and M.~A. Musur.
+\newblock Is the {M}adden–{J}ulian {O}scillation reliably detectable in
+  {S}chumann {R}esonances?
+\newblock {\em J.\ Atmos.\ Sol.\ Terr.\ Phys.}, 190:108--116, 2019.
+
+\bibitem{Slyunyaev_et_al_2021a}
+N.~N. Slyunyaev, A.~V. Frank-Kamenetsky, N.~V. Ilin, F.~G. Sarafanov, M.~V.
+  Shatalina, E.~A. Mareev, and C.~G. Price.
+\newblock Electric field measurements in the {A}ntarctic reveal patterns
+  related to the {E}l {N}iño—{S}outhern {O}scillation.
+\newblock {\em Geophys.\ Res.\ Lett.}, 48(21):e2021GL095389, 2021.
+
+\bibitem{Slyunyaev_et_al_2021b}
+N.~N. Slyunyaev, N.~V. Ilin, E.~A. Mareev, and C.~G. Price.
+\newblock The global electric circuit land–ocean response to the {E}l
+  {N}iño—{S}outhern {O}scillation.
+\newblock {\em Atmos.\ Res.}, 260:105626, 2021.
+
+\bibitem{Harrison_et_al_2011}
+R.~G. Harrison, M.~Joshi, and K.~Pascoe.
+\newblock Inferring convective responses to {E}l {N}iño with atmospheric
+  electricity measurements at {S}hetland.
+\newblock {\em Environ.\ Res.\ Lett.}, 6(4):044028, 2011.
+
+\bibitem{Slyunyaev_et_al_2021c}
+N.~N. Slyunyaev, N.~V. Ilin, E.~A. Mareev, and C.~G. Price.
+\newblock A new link between {E}l {N}iño—{S}outhern {O}scillation and
+  atmospheric electricity.
+\newblock {\em Environ.\ Res.\ Lett.}, 16(4):044025, 2021.
+
+\bibitem{Mareev_2010}
+Е.~А. Мареев.
+\newblock Достижения и перспективы
+  исследований глобальной электрической
+  цепи.
+\newblock {\em Усп. физ. наук}, 180(5):527--534, 2010.
+
+\bibitem{Kalinin_et_al_2014}
+А.~В. Калинин, Н.~Н. Слюняев, Е.~А. Мареев и
+  А.~А. Жидков.
+\newblock Стационарные и нестационарные модели
+  глобальной электрической цепи:
+  корректность, аналитические соотношения,
+  численная реализация.
+\newblock {\em Известия Российской Академии Наук.
+  Физика Атмосферы и Океана}, 50(3):355--364, 2014.
+
+\bibitem{Mareev_Volodin_2014}
+E.~A. Mareev and E.~M. Volodin.
+\newblock Variation of the global electric circuit and ionospheric potential in
+  a general circulation model.
+\newblock {\em Geophys.\ Res.\ Lett.}, 41(24):9009--9016, 2014.
+
+\bibitem{Harrison_2012}
+R.~Harrison.
+\newblock The {C}arnegie curve.
+\newblock {\em Surveys in Geophysics}, 34:209--232, 03 2012.
+
+\bibitem{Madden_Julian_1972}
+R.~A. Madden and P.~R. Julian.
+\newblock Description of global-scale circulation cells in the tropics with a
+  40–50 day period.
+\newblock {\em J.\ Atmos.\ Sci.}, 29(6):1109--1123, 1972.
+
+\bibitem{Wheeler_Hendon_2004}
+M.~C. Wheeler and H.~H. Hendon.
+\newblock An all-season real-time multivariate {MJO} index: Development of an
+  index for monitoring and prediction.
+\newblock {\em Mon.\ Wea.\ Rev.}, 132(8):1917--1932, 2004.
+
+\bibitem{Wang_et_al_2018}
+Feiyang Wang, Wenshou Tian, Fei Xie, Jiankai Zhang, and Yuanyuan Han.
+\newblock Effect of {M}adden–{J}ulian oscillation occurrence frequency on the
+  interannual variability of northern hemisphere stratospheric wave activity in
+  winter.
+\newblock {\em Journal of Climate}, 31:5031--5049, 2018.
+
+\bibitem{Burns_et_al_2012}
+G.~B. Burns, B.~A. Tinsley, A.~V. Frank‐Kamenetsky, O.~A. Troshichev,
+  W.~J.~R. French, and A.~R. Klekociuk.
+\newblock Monthly diurnal global atmospheric circuit estimates derived from
+  {V}ostok electric field measurements adjusted for local meteorological and
+  solar wind influences.
+\newblock {\em J.\ Atmos.\ Sci.}, 69(6):2061--2082, 2012.
+
+\bibitem{Burns_et_al_2017}
+G.~B. Burns, A.~V. Frank-Kamenetsky, B.~A. Tinsley, W.~J. French, P.~Grigioni,
+  G.~Camporeale, and E.~A. Bering.
+\newblock Atmospheric global circuit variations from {V}ostok and {C}oncordia
+  electric field measurements.
+\newblock {\em J.\ Atmos.\ Sci.}, 74(3):783--800, 2017.
+
+\bibitem{Knutson_Weickmann_1987}
+T.~R. Knutson and K.~M. Weickmann.
+\newblock 30–60 day atmospheric oscillations: Composite life cycles of
+  convection and circulation anomalies.
+\newblock {\em Mon.\ Wea.\ Rev.}, 115(7):1407--1436, 1987.
+
+\bibitem{Slingo_et_al_1999}
+J.~M. Slingo, D.~P. Rowell, K.~R. Sperber, and F.~Nortley.
+\newblock On the predictability of the interannual behaviour of the
+  {M}adden–{J}ulian {O}scillation and its relationship with {E}l {N}iño.
+\newblock {\em Quart.\ J.\ Roy.\ Meteor.\ Soc.}, 125(554):583--609, 1999.
+
+\bibitem{Lo_Hendon_2000}
+F.~Lo and H.~H. Hendon.
+\newblock Empirical extended-range prediction of the {M}adden–{J}ulian
+  oscillation.
+\newblock {\em Mon.\ Wea.\ Rev.}, 128(7):2528--2543, 2000.
+
+\bibitem{Matthews_2000}
+A.~J. Matthews.
+\newblock Propagation mechanisms for the {M}adden-{J}ulian {O}scillation.
+\newblock {\em Quart.\ J.\ Roy.\ Meteor.\ Soc.}, 126(569):2637--2651, 2000.
+
+\bibitem{Kessler_2001}
+W.~S. Kessler.
+\newblock {EOF} representations of the {M}adden–{J}ulian oscillation and its
+  connection with {ENSO}.
+\newblock {\em J.\ Climate}, 14(13):3055--3061, 2001.
+
+\bibitem{Adlerman_Williams_1996}
+E.~J. Adlerman and E.~R. Williams.
+\newblock Seasonal variation of the global electrical circuit.
+\newblock {\em J.\ Geophys.\ Res.}, 101(D23):29679--29688, 1996.
+
+\bibitem{Zhang_Moore_2015}
+Z.~Zhang and J.~C. Moore.
+\newblock {\em Mathematical and Physical Fundamentals of Climate Change}.
+\newblock Elsevier, Amsterdam, Netherlands, 2015.
+
+\bibitem{Lavigne_et_al_2017}
+T.~Lavigne, C.~Liu, W.~Deierling, and D.~Mach.
+\newblock Relationship between the global electric circuit and electrified
+  cloud parameters at diurnal, seasonal, and interannual timescales.
+\newblock {\em J.\ Geophys.\ Res.\ Atmos.}, 122(16):8525--8542, 2017.
+
+\end{thebibliography}
 
 \end{document}
